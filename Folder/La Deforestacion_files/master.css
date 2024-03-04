@@ -163,6 +163,11 @@ nav {
 		background: url("images/sidebar_background.png") top left;
 	}
 
+	.imgbig {
+		width: 200px;
+		height: 200px;
+	}
+
 
 
 /*------------------------------
@@ -208,6 +213,7 @@ nav {
 	margin-top: 21px;
 	padding-top: 22px;
 	border-top: 1px solid #d7d7d7;
+	color: rgb(140, 140, 140);
 }
 
 	#comments article {
@@ -232,7 +238,7 @@ nav {
 			#comments article header a {
 				display: block;
 				font-weight: bold;
-				color: #000;
+				color: #898787;
 			}
 			
 				#comments article header a:hover {
@@ -241,7 +247,8 @@ nav {
 		
 		#comments article p {
 			padding: 0;
-			color: white;
+			color: rgb(138, 137, 137);
+			text-align: justify;
 		}
 
 
